@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    background: #d1d1d1;
+}
+
+.logo-top {
+    color: #fff;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 90px;
+}
+
+.logo-top img{
+    width: 200px;
+    vertical-align: top;
+}
+
+.logo-top a{
+    /*font-size: 7vw;*/
+    color: #000;
+    text-decoration: none;
+    line-height: 125px;
+    
+}
+
+.menu-main{
+    display: flex;
+    justify-content: space-between;
+    background: #3b5998;
+    border-bottom: 1px solid #29487d;
+    height: 45px;
+}
+
+.menu-main a{
+    flex: 1;
+    font-family: arial;
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;    
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu-main a:hover{
+    background: rgba(0,0,0, .1);
+}
+
+.menu-main a.active{
+    background-color: #29487d;
+}
+
+footer{
+   background: #3b5998;
+   border-top: 5px solid White;
+   margin-bottom: 15px;
+  /* padding: 20px 20px 20px 20px; */
+}
+
+footer h2, h3 {
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.container-footer-one{
+  Background-color: #376565;
+  margin-top: 15px;
+  padding: 15px 0px 15px 0px;
+}
+
+.container-footer-two{
+  Background-color: #3b6998;
+  margin-top: 15px;
+  padding: 15px 0px 15px 0px;
+  color: #fff !important;
+}
+
+.container-footer-muestra p{
+ padding: 0px 15px 0px 35px;
+}
+
+.conatiner-footer-icono{
+  padding: 5px 25px 25px 25px;
+}
+
+
+.ingresar a{
+    color: #fff !important;
+    background-color: #bd4242;
+    border-color: #bd4242 !important;
+    font-size: 20px !important;
+    padding: 14px 40px;
+    border-style: solid;
+    border-radius: 2px;
+    text-decoration: none;
+/* es usado para el espacio de las letras*/
+    letter-spacing: .1em;
+}
+
+.ingresar a:hover{
+    background-color: #bd3535 !important;
+    border-color: #bd3535 !important;
+}
+
+.Bobo a {
+    background: #0099ff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+
+@media (max-width: 768px) {
+    
+    .menu-main{
+        height: auto;
+        border-bottom: 0px;
+        display: block;
+    }
+    
+    .menu-main a{
+        height: 45px;
+        border-bottom: 1px solid #29487d;
+    }
+
+   
+
+
+}
+
+
+
